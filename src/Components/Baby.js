@@ -35,7 +35,7 @@ const Baby = () => {
               <Nav.Link href="#action2"></Nav.Link>
               <Nav.Link href="#contact">CONTACT US</Nav.Link>
               <Nav.Link  onClick={() => navigate("/cloths")}>
-                CLOTHS
+                CLOTHES
               </Nav.Link>
               <Nav.Link href="#product">NEW ARRIVALS</Nav.Link>
               <Nav.Link href="#action8" onClick={() => navigate("/products")}>

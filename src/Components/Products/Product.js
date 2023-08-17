@@ -9,9 +9,7 @@ const Product = () => {
     const navigate =useNavigate()
   return (
     <div>
-    <h1>BABY CLOTHS AND PRODUCTS</h1>
-   
-
+    <h1>BABY CLOTHES AND PRODUCTS</h1>
     {product.filter((item)=>{
       return search.toLowerCase() === " " ? item: item.name.toLowerCase().includes(search)
     }

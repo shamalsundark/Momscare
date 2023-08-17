@@ -11,7 +11,7 @@ const AdminUserList = () => {
   return (
     <div className='userlist'>
         <header className='sticky-top'></header>
-      <Adminnav />
+      <Adminnav></Adminnav>
         
       <h2 style={{textAlign:"center"}}>User's List</h2>
       {userData.map((item)=>(
